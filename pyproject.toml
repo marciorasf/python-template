@@ -9,6 +9,7 @@ dependencies = [
     "pre-commit~=2.13",
     "pytest~=6.2",
     "pytest-sugar~=0.9",
+    "pytest-cov~=2.12",
 ]
 requires-python = ">=3.9"
 dynamic = ["classifiers"]
@@ -16,13 +17,6 @@ license = {text = "MIT"}
 
 [project.urls]
 homepage = ""
-
-[build-system]
-requires = ["pdm-pep517"]
-build-backend = "pdm.pep517.api"
-
-[tool]
-[tool.pdm]
 
 [tool.black]
 line-length = 120
