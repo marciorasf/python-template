@@ -45,6 +45,9 @@ extension-pkg-whitelist=numpy
 # and it will be removed in Pylint 2.0.
 optimize-ast=no
 
+# Disable missing-function-docstring.
+disable=C0116
+
 
 [MESSAGES CONTROL]
 
