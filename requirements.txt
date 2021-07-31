@@ -11,6 +11,7 @@ identify==2.2.11
 installer==0.2.3
 nodeenv==1.6.0
 packaging==21.0
+pdm==1.7.2
 pdm-pep517==0.8.0
 pep517==0.11.0
 platformdirs==2.2.0
