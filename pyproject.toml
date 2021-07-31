@@ -7,6 +7,8 @@ authors = [
 ]
 dependencies = [
     "pre-commit~=2.13",
+    "pytest~=6.2",
+    "pytest-sugar~=0.9",
 ]
 requires-python = ">=3.9"
 dynamic = ["classifiers"]
