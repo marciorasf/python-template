@@ -31,6 +31,7 @@ flake8-length = "^0.3.0"
 flake8-isort = "^4.1.1"
 flake8-absolute-import = "^1.0.0"
 dlint = "^0.12.0"
+pytest-clarity = "^1.0.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
