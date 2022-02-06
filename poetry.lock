@@ -302,17 +302,6 @@ astor = ">=0.1"
 flake8 = ">=3.7"
 
 [[package]]
-name = "flake8-spellcheck"
-version = "0.24.0"
-description = "Spellcheck variables, comments and docstrings"
-category = "dev"
-optional = false
-python-versions = "*"
-
-[package.dependencies]
-flake8 = ">3.0.0"
-
-[[package]]
 name = "flake8-variables-names"
 version = "0.0.4"
 description = "A flake8 extension that helps to make more readable variables names"
@@ -742,7 +731,7 @@ toml = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "929cd04c345e16ad577d3cd491d8724ee9a95dc01e1fe34d902b3e225ea24e65"
+content-hash = "84b4e99a06603b39d4efd3beab88b9854048cc7a7f990e173d45aa125c99ade6"
 
 [metadata.files]
 astor = [
@@ -879,10 +868,6 @@ flake8-length = [
 flake8-simplify = [
     {file = "flake8_simplify-0.15.1-py3-none-any.whl", hash = "sha256:dafa439c33d87bbf0e1d2218ce9cc1395baaf6f94b6c8a0e92d7fe6ba8939c38"},
     {file = "flake8_simplify-0.15.1.tar.gz", hash = "sha256:43c15229b0e1ecf6a1afaa6e02a42de961ceca57caaf74bac45818130dec44a3"},
-]
-flake8-spellcheck = [
-    {file = "flake8-spellcheck-0.24.0.tar.gz", hash = "sha256:833c92222158b5dea74f858ccfb9f980b7c865fbd89cabc18447dadb07ec62e6"},
-    {file = "flake8_spellcheck-0.24.0-py2.py3-none-any.whl", hash = "sha256:33d1727e4edb2b0cda3a78dee467d7bde53ff5a2a90056bc7d1764e0b060f331"},
 ]
 flake8-variables-names = [
     {file = "flake8_variables_names-0.0.4.tar.gz", hash = "sha256:d6fa0571a807c72940b5773827c5760421ea6f8206595ff0a8ecfa01e42bf2cf"},
