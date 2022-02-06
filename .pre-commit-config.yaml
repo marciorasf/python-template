@@ -35,3 +35,12 @@ repos:
         types: [python]
         stages: [push]
         language: system
+
+      - id: bandit
+        name: Check security flaws with bandit
+        entry: bandit
+        pass_filenames: true
+        types: [python]
+        exclude: tests
+        stages: [push]
+        language: system
