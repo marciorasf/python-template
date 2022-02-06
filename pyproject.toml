@@ -19,7 +19,6 @@ flake8-comprehensions = "^3.8.0"
 flake8-eradicate = "^1.2.0"
 flake8-expression-complexity = "^0.0.9"
 flake8-functions = "^0.0.6"
-flake8-isort = "^4.1.1"
 flake8-length = "^0.3.0"
 flake8-simplify = "^0.15.1"
 flake8-variables-names = "^0.0.4"
@@ -32,6 +31,7 @@ pytest-random-order = "^1.0.4"
 pytest-sugar = "^0.9.4"
 vulture = "^2.3"
 bandit = "^1.7.2"
+isort = "^5.10.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
