@@ -24,7 +24,7 @@ repos:
 
       - id: pytest
         name: Run tests with pytest
-        entry: pytest --random-order
+        entry: pytest --random-order --cov=sample --cov-report=term --cov-fail-under=90
         pass_filenames: false
         language: system
 
