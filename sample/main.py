@@ -1,2 +1,2 @@
-def sum_int(augend: int, addend: int) -> int:
-    return augend + addend
+def sum_int(a: int, b: int) -> int:
+    return a + b
