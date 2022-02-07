@@ -9,6 +9,3 @@ max-complexity = 10
 max-function-length = 40
 max-parameters-amount = 4
 max-returns-amout = 1
-
-; flake8-variables-names
-use-varnames-strict-mode = true
