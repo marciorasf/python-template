@@ -32,7 +32,7 @@ repos:
 
       - id: mypy
         name: Typecheck with mypy
-        entry: poetry run mypy .
+        entry: "./run_mypy.sh"
         pass_filenames: false
         types: [python]
         language: system
