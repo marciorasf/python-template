@@ -2,12 +2,9 @@ repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.1.0
     hooks:
-      - id: check-json
       - id: check-toml
       - id: check-yaml
-      - id: detect-private-key
       - id: end-of-file-fixer
-      - id: pretty-format-json
       - id: trailing-whitespace
 
   - repo: local
@@ -44,22 +41,4 @@ repos:
         name: Run tests with pytest
         entry: poetry run pytest --random-order --cov=sample --cov-report=term --cov-fail-under=90
         pass_filenames: false
-        language: system
-
-      - id: vulture
-        name: Check dead code with vulture
-        entry: poetry run vulture . --min-confidence 70
-        pass_filenames: false
-        exclude: .venv
-        types: [python]
-        stages: [push]
-        language: system
-
-      - id: bandit
-        name: Check security flaws with bandit
-        entry: poetry run bandit
-        pass_filenames: true
-        types: [python]
-        exclude: tests
-        stages: [push]
         language: system
