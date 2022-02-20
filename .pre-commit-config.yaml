@@ -3,9 +3,13 @@ repos:
     rev: v4.1.0
     hooks:
       - id: check-toml
+        name: Check TOML files
       - id: check-yaml
+        name: Check YAML files
       - id: end-of-file-fixer
+        name: End files with single empty line
       - id: trailing-whitespace
+        name: Remove trailing whitespace
 
   - repo: local
     hooks:
