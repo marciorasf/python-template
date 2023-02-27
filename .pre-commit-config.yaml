@@ -20,17 +20,10 @@ repos:
         types: [python]
         language: system
 
-      - id: flake8
-        name: Check style with flake8
-        entry: poetry run flake8
-        pass_filenames: true
-        types: [python]
-        language: system
-
-      - id: isort
-        name: Sort imports with isort
-        entry: poetry run isort
-        pass_filenames: true
+      - id: ruff
+        name: Static analysis with ruff
+        entry: poetry run ruff .
+        pass_filenames: false
         types: [python]
         language: system
 
