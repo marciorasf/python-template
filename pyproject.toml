@@ -36,7 +36,4 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-addopts = [
-  "--cov=sample",
-  "--cov-report=term"
-]
+addopts = ["--cov=src", "--cov-report=term"]

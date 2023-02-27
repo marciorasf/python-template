@@ -1,4 +1,4 @@
-from sample import main
+from src import main
 
 
 def test_main() -> None:
